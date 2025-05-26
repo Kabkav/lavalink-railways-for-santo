@@ -1,12 +1,12 @@
 server:
-  port: ${PORT}
-  address: 0.0.0.0
+  port: 443
+  address: lavalink-railways-for-santo-production.up.railway.app
 spring:
   main:
     banner-mode: log
 lavalink:
   server:
-    password: youshallnotpass
+    password: youshallpass
     sources:
       youtube: true
       bandcamp: true
