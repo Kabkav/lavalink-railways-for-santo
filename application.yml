@@ -1,5 +1,5 @@
 server:
-  port: 443
+  port: 433
   address: lavalink-railways-for-santo-production.up.railway.app
 spring:
   main:
