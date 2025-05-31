@@ -1,6 +1,6 @@
 server:
   port: 443
-  address: kutsal-bot.up.railway.app
+  address: 127.0.0.1
 spring:
   main:
     banner-mode: log
