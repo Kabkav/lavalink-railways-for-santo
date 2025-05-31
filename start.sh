@@ -1,3 +1,3 @@
-curl -OL "https://github.com/lavalink-devs/Lavalink/releases/download/4.0.8/Lavalink.jar" Lavalink.jar
+curl -OL "https://github.com/lavalink-devs/Lavalink/releases/download/3.7.13/Lavalink.jar" Lavalink.jar
 
 java -jar Lavalink.jar
