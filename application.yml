@@ -1,5 +1,5 @@
 server:
-  port: 433
+  port: 443
   address: 0.0.0.0
 spring:
   main:
@@ -16,15 +16,15 @@ lavalink:
       mixer: true
       http: true
       local: false
-    bufferDurationMs: 400
-    youtubePlaylistLoadLimit: 3
+    bufferDurationMs: 900
+    youtubePlaylistLoadLimit: 30
     youtubeSearchEnabled: true
     soundcloudSearchEnabled: true
     gc-warnings: true
 
 metrics:
   prometheus:
-    enabled: false
+    enabled: true
     endpoint: /metrics
 
 sentry:
@@ -32,8 +32,8 @@ sentry:
 
 logging:
   file:
-    max-history: 1
-    max-size: 3MB
+    max-history: 2
+    max-size: 30MB
   path: /app/logs/
 
   level:
