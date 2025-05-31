@@ -21,7 +21,7 @@ lavalink:
       - ANDROID_VR
       - WEB
       - WEBEMBEDDED 
-      clientOptions:
+    clientOptions:
       WEB:
         # Example: Disabling a client's playback capabilities.
         playback: false
